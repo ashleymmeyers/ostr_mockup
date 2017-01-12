@@ -15,6 +15,8 @@
   <!-- toolkit styles -->
   <link rel="stylesheet" href="assets/toolkit.css">
   <!-- /toolkit styles -->
+  
+  <link rel="shortcut icon" href="https://businessportal.sfgov.org/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon">
 
 </head>
 
@@ -366,7 +368,7 @@
         <div class="app-inner inset border-bottom">
           <div class="form-group">
             <h3 class="form-label caps">Is your home zoned as a residential unit?</h3>
-              <span class="checkbox-block_note">The area to be used for short-term rentals must be within a residential portion of the building (i.e. not a retail, commercial, or industrial space)</span>
+              <p class="form-note margin-bottom">The area to be used for short-term rentals must be within a residential portion of the building (i.e. not a retail, commercial, or industrial space)</p>
             <div class="radio-group">
             <p class="radio-block">
                 <input type="radio" name="residential" id="res-yes" />
@@ -388,7 +390,7 @@
         <div class="app-inner inset border-bottom">
           <div class="form-group">
                   <h3 class="form-label caps">Is your unit income-restricted?</h3>
-                      <span class="checkbox-block_note">For example, BMR inclusionary housing, subsidized affordable housing, or public housing.</span>
+                      <p class="form-note margin-bottom">For example, BMR inclusionary housing, subsidized affordable housing, or public housing.</p>
                   <p class="radio-block">
                       <input type="radio" name="restricted" id="restricted-yes" />
                       <label class="radio-block_label" for="restricted-yes">
@@ -407,17 +409,17 @@
         <div class="app-inner inset">
           <div class="form-group">
                   <h3 class="form-label caps">Are there any outstanding code violations?</h3>
-                      <span class="checkbox-block_note">To check if there are any outstanding Building Code or Planning Code violations on the property, check the Property Information Map.</span>
+                      <p class="form-note margin-bottom">To check if there are any outstanding Building Code or Planning Code violations on the property, check the <a href="http://propertymap.sfplanning.org/" target="_blank">Property Information Map.</a></p>
                   <p class="radio-block">
-                      <input type="radio" name="restricted" id="restricted-yes" />
-                      <label class="radio-block_label" for="restricted-yes">
+                      <input type="radio" name="violations" id="violations-yes" />
+                      <label class="radio-block_label" for="violations-yes">
                         Yes
                       </label>
                   </p>  
 
                   <p class="radio-block">
-                      <input type="radio" name="restricted" id="restricted-no" />
-                      <label class="radio-block_label" for="restricted-no">
+                      <input type="radio" name="violations" id="violations-no" />
+                      <label class="radio-block_label" for="violations-no">
                         No
                       </label>
                   </p> 
